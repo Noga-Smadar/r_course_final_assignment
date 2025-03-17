@@ -1,4 +1,4 @@
-# R course final assignment
+# R course final assignment: Summarizing Doc
 
 ###The Dataset (A1)
 This is a dataset from an experiment testing perception of emotional valence during exposure to emotional audio stimuli. 200 Online participants from the UK rated how they felt while listening to 60 emotional sound effects on SAM scales, 9-point likert scales with emoticons expressing valence, ranging from 1 (very negative) to 9 (very positive). The sound effects were taken from the International Affective Digitized Sounds (IADS) system, and all have norm valence ratings. They also completed two questionnaires: The OCI-R – Obsessive Compulsive Inventory Revised: An 18-items questionnaire measuring obsessive compulsive symptoms; and the DASS-21 anxiety and depression subscales.
@@ -38,9 +38,15 @@ Therefore, I decided on an alternative approach (see part4_additional_processing
 
 
 ### Analysis (C)
-c1) I conducted a linear regression testing
-I also conducted a logistic regression, with 
-c2) No evidence was found for relationships between OC, anxiety, or depression symptoms and mean emotional valence, or 
+c1) 
+# Analysis (C)
+c1) A linear regression was conducted in order to examine the effects of obsessive compulsive, anxiety, and depression symptoms on reported emotional valence in response to emotional stimuli. R2 for the model was _. No evidence for any of the effects was found. <br/><br/>
+I also conducted a logistic regression examining the effects of obsessive compulsive, anxiety, and depression symptoms on deviation from norm valence ratings. No evidence was found for effects of anxiety or depression. However, a positive effect of obsessive compulsive was found ()<br/><br/>
+c2) 
+It should be noted that while OC symptoms significantly predicted high mean distance from norm ratings, the coefficient was very small (0.06), odds ratio was not much larger than one, and the model was weak (AUC = 0.6).
+ 
+c3) 
+
 It should be noted that while OC symptoms significantly predicted high mean distance from norm ratings, the coefficient was very small (0.06), odds ratio was not much larger than one, and the model was weak (AUC = 0.6).
  
 c3) 
