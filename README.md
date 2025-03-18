@@ -63,7 +63,7 @@ A linear regression was conducted in order to examine the effects of OCI-R, DASS
 ![image](https://github.com/user-attachments/assets/86baafd9-8093-4ccb-944a-8a6f6c9fcf78)
  <br/><br/> Figure 6. Linear regression results <br/><br/>
 c2) 
-The logistic regression provided no evidence of effects of OC, anxiety, or depression symptoms on the emotional valence. This means that I found no evidence showing that an increase in any of the symptoms of interest increases the odds of reporting negative valence during exposure to emotional audio stimuli. Moreover, the non-significant estimates were miniscule. It should be noted the model was weak (AUC = 0.6). 
+The logistic regression provided no evidence of effects of OC, anxiety, or depression symptoms on the emotional valence. This means that I found no evidence showing that an increase in any of the symptoms of interest increases the odds of reporting negative valence during exposure to emotional audio stimuli. Moreover, the non-significant estimates were miniscule. It should be noted the model was weak (AUC = 0.606). 
 
 However, I did find evidence that a unit increase in OC symptoms leads to a 0.288 units increase in deviation from norm ratings of emotional valence, reported while listening to emotional sounds. Albeit, the analysis yielded no evidence that symptoms of depression or anxiety relate in any way to a deviation from norm ratings. One interpretation of the effect of OC symptoms can be that OC symptoms are related to a deviation from norms in terms of truly felt emotional valence. An alternative explanation might arise from the Seeking Proxies for Internal States theory. The theory posits that obsessions and compulsions derive from a difficulty in accessing internal states, which includes emotional states, and has received empirical support (Liberman et al., 2023). Drawing from this theory, perhaps OC symptoms are not related to a tendency to truly experience emotional stimuli differently, but to a difficulty in realizing what you feel, resulting in less accurate reports. The idea that OCD relates to worse emotional valence recognition has support in the existing literature (Lazarov et al., 2020).  
 
@@ -96,7 +96,7 @@ Figure 8.  Illustrating the non-significant relationship between anxiety symptom
 
 
 c4) <br/><br/>
-![image](https://github.com/user-attachments/assets/7b0f439f-d43a-44c8-a577-c838b13f5f42)
+![image](https://github.com/user-attachments/assets/abd9abf5-1595-4db3-bc69-164a93efbc7d)
 
 Figure 9: ROC curve. 
 
