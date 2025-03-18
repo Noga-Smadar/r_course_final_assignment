@@ -55,17 +55,18 @@ Therefore, I decided on an alternative approach (see part4_additional_processing
 see part_5_analysis.R <br/><br/>
 c1) 
 I conducted a logistic regression examining the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean reported emotional valence in response to emotional audio stimuli. The dependent variable was coded as 0 = positive mean valence, 1 = negative mean valence. No evidence for any of the effects was found. 
- <br/><br/>
+
+ ![image](https://github.com/user-attachments/assets/09466860-2235-4890-9267-e9375e68833d)
+ <br/><br/> Figure 5. Logistic regression results <br/><br/>
 A linear regression was conducted in order to examine the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean absolute distance from norm valence ratings. Prior to the analysis, I scaled the variables (see part4_additional_processing.R) in order to receive more intuitively interpretable coefficients. R2 for the model was _. No evidence was found for the effects of symptoms of anxiety or depression. However, a positive effect of obsessive compulsive symptoms was found ().  
 <br/><br/>
-
+![image](https://github.com/user-attachments/assets/86baafd9-8093-4ccb-944a-8a6f6c9fcf78)
+ <br/><br/> Figure 6. Linear regression results <br/><br/>
 c2) 
 The logistic regression provided no evidence of effects of OC, anxiety, or depression symptoms on the emotional valence. This means that I found no evidence showing that an increase in any of the symptoms of interest increases the odds of reporting negative valence during exposure to emotional audio stimuli. Moreover, the non-significant estimates were miniscule. It should be noted the model was weak (AUC = 0.6). 
 
-However, I did find evidence that a unit increase in OC symptoms leads to a _ units increase in deviation from norm ratings of emotional valence, reported while listening to emotional sounds. Albeit, the analysis yielded no evidence that symptoms of depression or anxiety relate in any way to a deviation from norm ratings. One interpretation of the effect of OC symptoms can be that OC symptoms are related to a deviation from norms in terms of truly felt emotional valence. An alternative explanation might arise from the Seeking Proxies for Internal States theory. The theory posits that obsessions and compulsions derive from a difficulty in accessing internal states, which includes emotional states, and has received empirical support (Liberman et al., 2023). Drawing from this theory, perhaps OC symptoms are not related to a tendency to truly experience emotional stimuli differently, but to a difficulty in realizing what you feel, resulting in less accurate reports. The idea that OCD relates to worse emotional valence recognition has support in the existing literature (Lazarov et al., 2020).  
+However, I did find evidence that a unit increase in OC symptoms leads to a 0.288 units increase in deviation from norm ratings of emotional valence, reported while listening to emotional sounds. Albeit, the analysis yielded no evidence that symptoms of depression or anxiety relate in any way to a deviation from norm ratings. One interpretation of the effect of OC symptoms can be that OC symptoms are related to a deviation from norms in terms of truly felt emotional valence. An alternative explanation might arise from the Seeking Proxies for Internal States theory. The theory posits that obsessions and compulsions derive from a difficulty in accessing internal states, which includes emotional states, and has received empirical support (Liberman et al., 2023). Drawing from this theory, perhaps OC symptoms are not related to a tendency to truly experience emotional stimuli differently, but to a difficulty in realizing what you feel, resulting in less accurate reports. The idea that OCD relates to worse emotional valence recognition has support in the existing literature (Lazarov et al., 2020).  
 
-
-This might be surprising in light of previous findings, 
 
 <br/><br/>
 
@@ -75,31 +76,29 @@ c3)
 
 
 
-**A** <br/><br/>
+**A** <br/><br/>  ![image](https://github.com/user-attachments/assets/8d69ebcc-89dc-4799-8b75-19ddd6f9a6f9)
 
-**B** <br/><br/>
 
-**C** <br/><br/>
+**B** <br/><br/> ![image](https://github.com/user-attachments/assets/aa8fcf53-d98d-45c0-b317-ee5a57d61c34)
 
-Figure 5. Illustrating the linear regression where (A) OC, (B) anxiety, and (C) depression symptoms served as predictors of emotional valence categories (0 - positive, 1 - negative). They did not significantly predict the outcome. 
+
+**C** <br/><br/> ![image](https://github.com/user-attachments/assets/411ec107-5c15-464e-b586-106b95cae45a)
+
+
+Figure 7. Illustrating the linear regression where (A) OC, (B) anxiety, and (C) depression symptoms served as predictors of emotional valence categories (0 - positive, 1 - negative). They did not significantly predict the outcome. 
 <br/><br/>
 
 <br/><br/> 
-
-**A** <br/><br/>
-
-**B** <br/><br/>
-
-**C** <br/><br/>
+![image](https://github.com/user-attachments/assets/4fcc97b0-c2d8-4360-bd5c-64e8b44ff883)
 
 
-Figure 6.  (A) Illustrating that the higher OC symptoms are, the higher the deviation from norm valence ratings is. (B) Illustrating the non-significant relationship between anxiety symptoms and the deviation from norm valence ratings.  (C) Illustrating the non-significant relationship between depression symptoms and  the deviation from norm valence ratings.
+Figure 8.  Illustrating the non-significant relationship between anxiety symptoms and the deviation from norm valence ratings. Illustrating the non-significant relationship between depression symptoms and  the deviation from norm valence ratings. Illustrating that the higher OC symptoms are, the higher the deviation from norm valence ratings is.
 
 
 c4) <br/><br/>
 ![image](https://github.com/user-attachments/assets/7b0f439f-d43a-44c8-a577-c838b13f5f42)
 
-Figure 7: ROC curve. 
+Figure 9: ROC curve. 
 
 <br/><br/>
 ### References 
