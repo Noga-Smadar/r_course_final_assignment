@@ -54,16 +54,17 @@ Therefore, I decided on an alternative approach (see part4_additional_processing
 ### Analysis (C)
 see part_5_analysis.R <br/><br/>
 c1) 
-I conducted a logistic regression examining the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean reported emotional valence in response to emotional audio stimuli. The dependent variable was coded as 0 = positive mean valence, 1 = negative mean valence. No evidence for any of the effects was found. 
+I conducted a logistic regression examining the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean reported emotional valence in response to emotional audio stimuli. The dependent variable was coded as 0 = positive mean valence, 1 = negative mean valence. No evidence for any of the effects was found (Odds ratio: OC - 1.0369403, anxiety - 1.0249686, depression - 0.9919520 
 
  ![image](https://github.com/user-attachments/assets/09466860-2235-4890-9267-e9375e68833d)
  <br/><br/> Figure 5. Logistic regression results <br/><br/>
-A linear regression was conducted in order to examine the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean absolute distance from norm valence ratings. Prior to the analysis, I scaled the variables (see part4_additional_processing.R) in order to receive more intuitively interpretable coefficients. R2 for the model was _. No evidence was found for the effects of symptoms of anxiety or depression. However, a positive effect of obsessive compulsive symptoms was found ().  
+A linear regression was conducted in order to examine the effects of OCI-R, DASS-anxiety and DASS-depression scores on mean absolute distance from norm valence ratings. Prior to the analysis, I scaled the variables (see part4_additional_processing.R) in order to receive more intuitively interpretable coefficients. R2 for the model was _. No evidence was found for the effects of symptoms of anxiety or depression. However, a positive effect of obsessive compulsive symptoms was found (0.288, t = 3.067, p-value = 0.00252).  
 <br/><br/>
 ![image](https://github.com/user-attachments/assets/86baafd9-8093-4ccb-944a-8a6f6c9fcf78)
  <br/><br/> Figure 6. Linear regression results <br/><br/>
 c2) 
-The logistic regression provided no evidence of effects of OC, anxiety, or depression symptoms on the emotional valence. This means that I found no evidence showing that an increase in any of the symptoms of interest increases the odds of reporting negative valence during exposure to emotional audio stimuli. Moreover, the non-significant estimates were miniscule. It should be noted the model was weak (AUC = 0.606). 
+The logistic regression provided no evidence of effects of OC, anxiety, or depression symptoms on the emotional valence. This means that I found no evidence showing that an increase in any of the symptoms of interest increases the odds of reporting negative valence during exposure to emotional audio stimuli. It should be noted the model was weak (AUC = 0.606). 
+<br/><br/>
 
 However, I did find evidence that a unit increase in OC symptoms leads to a 0.288 units increase in deviation from norm ratings of emotional valence, reported while listening to emotional sounds. Albeit, the analysis yielded no evidence that symptoms of depression or anxiety relate in any way to a deviation from norm ratings. One interpretation of the effect of OC symptoms can be that OC symptoms are related to a deviation from norms in terms of truly felt emotional valence. An alternative explanation might arise from the Seeking Proxies for Internal States theory. The theory posits that obsessions and compulsions derive from a difficulty in accessing internal states, which includes emotional states, and has received empirical support (Liberman et al., 2023). Drawing from this theory, perhaps OC symptoms are not related to a tendency to truly experience emotional stimuli differently, but to a difficulty in realizing what you feel, resulting in less accurate reports. The idea that OCD relates to worse emotional valence recognition has support in the existing literature (Lazarov et al., 2020).  
 
