@@ -1,7 +1,10 @@
 # R Course Final assignment – Summarizing Document 
 
 ### The Dataset (A1)
-This is a dataset from an experiment testing perception of emotional valence during exposure to emotional audio stimuli. 200 Online participants from the UK rated how they felt while listening to 60 emotional sound effects on SAM scales, 9-point likert scales with emoticons expressing valence, ranging from 1 (very negative) to 9 (very positive). The sound effects were taken from the International Affective Digitized Sounds (IADS) system, and all have norm valence ratings. They also completed two questionnaires: The OCI-R – Obsessive Compulsive Inventory Revised: An 18-items questionnaire measuring obsessive compulsive (OC) symptoms; and the DASS-21 anxiety and depression subscales.
+This is a dataset from an experiment testing perception of emotional valence during exposure to emotional audio stimuli. 200 Online participants from the UK rated how they felt while listening to 60 emotional sound effects on SAM scales, 9-point likert scales with emoticons expressing valence, ranging from 1 (the negative end) to 9 (the positive end). The sound effects were taken from the International Affective Digitized Sounds (IADS) system, and all have norm valence ratings. They also completed two questionnaires: The OCI-R – Obsessive Compulsive Inventory Revised: An 18-items questionnaire measuring obsessive compulsive (OC) symptoms; and the DASS-21 anxiety and depression subscales. <br/><br/>
+![image](https://github.com/user-attachments/assets/a07c6977-4dcd-42ed-92d8-c835953d5e9a)
+
+<br/><br/>Figure 1. Sam scale. <br/><br/>
 I chose to work on this dataset because I collaborated on the experiment as a research assistant to Prof. Ruvi Dar. I was both interested in how emotion and emotion recognition are affected by symptoms of OCD, depression and anxiety, and concluded that this assignment can be a good opportunity to do exploratory work on our data. 
 
 ### Data Processing (B2, and B3 / B4 – I will note where they’re relevant)
@@ -24,7 +27,12 @@ After arranging the raw data, I calculated potential variables to exploratorily 
 See part3_exploratory_visualization.R.
 
 
-
+![שקופית1](https://github.com/user-attachments/assets/a8996893-dc58-4b00-a7e9-feb3bd467ae0)
+Figure 2. Distributions of valence rating-based potential variables.
+![שקופית2](https://github.com/user-attachments/assets/16924fbc-80f5-48ee-841b-f148dcb55279)
+<br/>Figure 3. Distributions of questionnaire scores. 
+![שקופית3](https://github.com/user-attachments/assets/3b0a149d-c8c1-4d78-b50b-1d8c14f9ec99)
+<br/> Figure 4. Scatterplots with trendline for some potential relationships of interest.
 
 
 ## The Research Question (A3)
@@ -73,7 +81,7 @@ c3)
 
 **C** <br/><br/>
 
-Figure _. Illustrating the linear regression where (A) OC, (B) anxiety, and (C) depression symptoms served as predictors of emotional valence categories (0 - positive, 1 - negative). They did not significantly predict the outcome. 
+Figure 5. Illustrating the linear regression where (A) OC, (B) anxiety, and (C) depression symptoms served as predictors of emotional valence categories (0 - positive, 1 - negative). They did not significantly predict the outcome. 
 <br/><br/>
 
 <br/><br/> 
@@ -85,17 +93,18 @@ Figure _. Illustrating the linear regression where (A) OC, (B) anxiety, and (C) 
 **C** <br/><br/>
 
 
-Figure _.  (A) Illustrating that the higher OC symptoms are, the higher the deviation from norm valence ratings is. (B) Illustrating the non-significant relationship between anxiety symptoms and the deviation from norm valence ratings.  (C) Illustrating the non-significant relationship between depression symptoms and  the deviation from norm valence ratings.
+Figure 6.  (A) Illustrating that the higher OC symptoms are, the higher the deviation from norm valence ratings is. (B) Illustrating the non-significant relationship between anxiety symptoms and the deviation from norm valence ratings.  (C) Illustrating the non-significant relationship between depression symptoms and  the deviation from norm valence ratings.
 
 
 c4) <br/><br/>
 ![image](https://github.com/user-attachments/assets/7b0f439f-d43a-44c8-a577-c838b13f5f42)
 
-Figure _: ROC curve. 
+Figure 7: ROC curve. 
 
+<br/><br/>
 ### References 
 
-Lazarov, A., Friedman, A., Comay, O., Liberman, N., & Dar, R. (2020). Obsessive-compulsive symptoms are related to reduced awareness of emotional valence. Journal of Affective Disorders, 272, 28–37. https://doi.org/10.1016/j.jad.2020.03.129
+Lazarov, A., Friedman, A., Comay, O., Liberman, N., & Dar, R. (2020). *Obsessive-compulsive symptoms are related to reduced awareness of emotional valence.* Journal of Affective Disorders, 272, 28–37. https://doi.org/10.1016/j.jad.2020.03.129
 
-Liberman, N., Lazarov, A., & Dar, R. (2023). Obsessive-Compulsive Disorder: The Underlying Role of Diminished Access to Internal States. Current Directions in Psychological Science. https://doi.org/10.1177/09637214221128560
+Liberman, N., Lazarov, A., & Dar, R. (2023). *Obsessive-Compulsive Disorder: The Underlying Role of Diminished Access to Internal States. Current Directions in Psychological Science.* https://doi.org/10.1177/09637214221128560
 
